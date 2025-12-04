@@ -1,0 +1,17 @@
+topics to understand:
+
+BeanInfo class from java.beans
+Introspector.beanInfo(TargetClass.class, StopClass.class) -> usage: 
+BeanInfo beanInfo_1 = Introspector.beanInfo(Foo.class, Object.class);
+
+
+PropertyDescriptor[] pd1 = beanInfo_1.getPropertyDescriptors();
+
+MethodDescriptor[] md1 = beanInfo_1.getMethodDescriptors();
+
+FeatureDescriptor?
+
+and More
+
+
+
